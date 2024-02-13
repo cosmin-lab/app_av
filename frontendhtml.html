@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Programma Gestione Dipendenti</title>
+</head>
+<body>
+
+    <header>
+        <h1>Programma Gestione Dipendenti</h1>
+    </header>
+
+    <div class="container">
+
+        <nav>
+            <a href="/registrazione">Registrazione</a>
+            <a href="/accedi">Accesso Dipendente</a>
+            <a href="/tabella-dipendenti">Tabella Dipendenti</a>
+            <a href="/registra-entrata">Registra Entrata</a>
+            <a href="/registra-uscita">Registra Uscita</a>
+            <a href="/genera-report-mensile">Genera Report Mensile</a>
+            <a href="/esci">Esci</a>
+        </nav>
+
+        <!-- Contenuto principale qui -->
+        <div id="main-content">
+            <!-- Esempio di form di registrazione -->
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="cognome">Cognome:</label>
+                <input type="text" id="cognome" name="cognome" required>
+
+                <!-- Altri campi del form... -->
+
+                <button type="submit">Registra</button>
+            </form>
+
+            <!-- Esempio di tabella di visualizzazione dipendenti -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Disponibilità Settimanale</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Lunedì: Turno Mattina (10:30 - 18:30)</td>
+                    </tr>
+                    <!-- Altri dati della tabella... -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</body>
+</html>
